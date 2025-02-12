@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    font-size: 16px;
+    background-color: #f3f3f3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: calc(100% - 250px); /* Ajusta según el ancho del menú */
+    margin-left: 250px; /* Debe coincidir con el ancho del menú */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos de la card */
+.content {
+    margin-left: 260px; /* Ajuste mayor al ancho del menú */
+    padding: 20px;
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    max-width: 100%;
+    background-color: #5372d0;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 900; /* Asegura que esté sobre otros elementos, pero debajo del menú */
+}
+
+.card-header {
+    background-color: #4159a3;
+    color: white;
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: #f3f3f3;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-footer {
+    background-color: #4159a3;
+    text-align: right;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Botón */
+.btn-success {
+    background-color: #4159a3;
+    border-color: #4159a3;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.btn-success:hover {
+    background-color: #374b8e;
+    border-color: #374b8e;
+}
+
+/* Estilos de la tabla */
+.table-responsive {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    table-layout: auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.table thead {
+    background-color: #4159a3;
+    color: white;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Iconos */
+.icon {
+    font-size: 20px;
+    color: #4159a3;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.icon:hover {
+    color: red;
+}
+
+/* DataTables */
+.dataTables_paginate i {
+    font-size: 20px;
+    color: #4159a3;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.dataTables_paginate i:hover {
+    color: #374b8e;
+    transform: scale(1.3);
+}
+
+.dataTables_paginate {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

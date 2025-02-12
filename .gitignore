@@ -1,0 +1,25 @@
+# Ignorar la carpeta de Git (en caso de que hayas clonado otro repo y no quieras conflictos)
+.git/
+
+# Ignorar carpetas de compilación y distribución
+build/
+dist/
+
+# Ignorar configuraciones específicas de NetBeans
+nbproject/private/
+
+# Ignorar archivos temporales y de caché
+*.log
+*.tmp
+
+# Ignorar archivos de compilación de Java
+*.class
+
+# Ignorar archivos generados automáticamente por el IDE
+*.iml
+*.ipr
+*.iws
+
+# Ignorar archivos de Maven y Gradle (si aplican)
+target/
+.gradle/
